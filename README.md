@@ -1,3 +1,5 @@
+![Peekaboo Bot Logo](https://files.catbox.moe/a8mvtz.png)
+
 # Peekaboo Discord Bot
 
 Peekaboo is a fun and interactive Discord bot that plays a game of "Peekaboo" with server members. The bot sends random "Peekaboo!" messages to channels, and users can earn points by reacting to these messages before they dissapear.
