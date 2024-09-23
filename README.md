@@ -1,11 +1,11 @@
 # Peekaboo Discord Bot
 
-Peekaboo is a fun and interactive Discord bot that plays a game of "Peekaboo" with server members. The bot sends random "Peekaboo!" messages to channels, and users can earn points by reacting to these messages.
+Peekaboo is a fun and interactive Discord bot that plays a game of "Peekaboo" with server members. The bot sends random "Peekaboo!" messages to channels, and users can earn points by reacting to these messages before they dissapear.
 
 ## Features
 
-- Sends "Peekaboo!" messages to random channels at regular intervals
-- Users earn points by reacting to the bot's messages
+- Sends a "Peekaboo!" message to a random channels
+- Users earn a point by reacting to the bot's message beofre it's gone
 - Leaderboard to track user scores
 - Admin commands for managing the game
 - Sleek, minimalist embed design for bot responses
@@ -27,7 +27,6 @@ The bot requires the following permissions in the channels where it will operate
 - Send Messages
 - Manage Messages (to delete its own messages)
 - Read Message History
-- Add Reactions
 
 The bot will only send messages in channels where it has permission to send messages and which are not marked as NSFW.
 
@@ -42,30 +41,28 @@ Note: While the bot doesn't need administrator rights for its core functionality
    pip install discord.py python-dotenv
    ```
 
-3. Create a new file named `bot.py` and copy the bot code into this file.
-
-4. Create a file named `.env` in the same directory as `bot.py` and add your Discord bot token:
+3. Create a file named `.env` in the same directory as `main.py` and add your Discord bot token:
    ```
    DISCORD_TOKEN=your_bot_token_here
    ```
    Replace `your_bot_token_here` with your actual Discord bot token.
 
-5. Run the bot:
+4. Run the bot:
    ```
-   python bot.py
+   python main.py
    ```
 
 ## Configuration
 
-You can modify the following variables in `bot.py` to customize the bot's behavior:
+You can modify the following variables in `main.py` to customize the bot's behavior:
 
 - `command_prefix`: Change the prefix for bot commands (default is 'p!')
 - `peekaboo_loop.change_interval(minutes=2)`: Change the interval between Peekaboo messages
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! <3
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE] file for details.
